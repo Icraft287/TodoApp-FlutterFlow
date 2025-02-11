@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "created_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "uid": {
+      "type": "string"
+    }
+  },
+  "required": ["created_time", "display_name", "email", "uid"]
+}
